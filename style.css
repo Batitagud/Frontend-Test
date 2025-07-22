@@ -266,7 +266,6 @@ body {
   margin-right: 10px;
 }
 
-/* Responsive layout */
 @media (max-width: 768px) {
   .about-content-wrapper {
     flex-direction: column;
