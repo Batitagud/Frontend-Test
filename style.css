@@ -60,18 +60,6 @@ body {
   transition: 0.3s ease;
 }
 
-/* Hover efek pada menu */
-.navbar-nav .nav-link:hover {
-  color: #ffcc00;
-  text-decoration: underline;
-}
-
-/* Menu aktif */
-.navbar-nav .nav-link.active {
-  color: #ffcc00;
-  font-weight: bold;
-}
-
 /* Home Section Styling */
 .home-section {
   display: flex;
@@ -174,11 +162,6 @@ body {
 .navbar-nav .nav-link:hover {
   color: #ffcc00;
   text-decoration: underline;
-}
-
-.navbar-nav .nav-link.active {
-  color: #f4cd00;
-  font-weight: bold;
 }
 
 .feature-bar {
@@ -475,6 +458,8 @@ body {
   color: white;
   font-size: 1.5rem;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .btn-contact {
@@ -483,7 +468,8 @@ body {
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Main Section */
@@ -527,16 +513,17 @@ body {
 .nav-menu a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: medium;
+  font-family: "Poppins", sans-serif;
 }
 
 hr {
   width: 80%;
   margin: 20px auto;
-  border: 0.5px solid #ccc;
+  border: 0.5px solid #ffffff;
 }
 
 footer p {
   font-size: 0.9rem;
-  color: #ddd;
+  color: #ffffff;
 }
