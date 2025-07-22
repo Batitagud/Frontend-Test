@@ -182,13 +182,12 @@ body {
 }
 
 .about-box {
-  background-color: #000000;
+  background-color: #00000000;
   padding: 30px;
   border-radius: 20px;
   max-width: 1000px;
   width: 100%;
   color: white;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .about-content-wrapper {
@@ -220,14 +219,14 @@ body {
 
 .about-content p {
   font-size: 1rem;
-  color: #cfcfcf;
+  color: #ffffff;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
 
 .contact-btn {
-  background-color: #ffcc00;
+  background-color: #f4cd00;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -239,7 +238,7 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #e6b800;
+  background-color: #f4cd00;
 }
 
 /* Contact box */
